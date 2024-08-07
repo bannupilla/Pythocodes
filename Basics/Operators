@@ -1,0 +1,13 @@
+print(2 * 3)
+print(8 / 4) # division always returns float result
+print(8 // 4) # floor division returns integer
+print(3 + 5 , 4+6 , sep =" | ", end =" done ")
+print (2 ** 3) # exponential
+print ( 5 % 2) #modulus -  ..... ( nearest value to 5 ) remaining value
+print (1 % 2)
+print (10 % 2, 10 % 5, 100 % 9 , sep =" / ")
+print(6. // 4)
+
+#operator priority unary(+,-), **, *, / , //, %, +, -
+
+print(-10+6**1-4+26)
