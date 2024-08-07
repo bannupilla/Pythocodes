@@ -1,0 +1,30 @@
+print("Hello!! This is my first python program")
+print('This is \nsecond line')
+print("This is third \\ sentence")
+print("This is another escape \'sequence'")
+print("\"testing quotation\"")
+
+print("Hello", end="")
+print("World!")
+
+print("apple", "banana", "cherry", sep=" eeee ")
+
+print("apple", "banana", "cherry", sep=" | ", end="; ")
+print("kiwi", "mango")
+
+
+
+
+
+
+0/p
+
+Hello!! This is my first python program
+This is 
+second line
+This is third \ sentence
+This is another escape 'sequence'
+"testing quotation"
+HelloWorld!
+apple eeee banana eeee cherry
+apple | banana | cherry; kiwi mango
