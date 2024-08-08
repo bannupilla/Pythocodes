@@ -1,0 +1,27 @@
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Get an iterator from the list
+iterator = iter(numbers)
+
+# Use the iterator to traverse the list
+while True:
+    try:
+        # Get the next item from the iterator
+        number = next(iterator)
+        print(number)
+    except StopIteration:
+        # StopIteration is raised when there are no more items
+        break
+
+
+o/p          
+
+1
+2
+3
+4
+5
+
+
+          
