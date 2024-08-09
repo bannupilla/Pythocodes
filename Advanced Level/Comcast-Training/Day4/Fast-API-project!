@@ -1,0 +1,22 @@
+C:\Users\bpilla558\PycharmProjects
+mkdir Fastapi_project
+cd Fastapi_project
+(.venv) PS C:\Users\bpilla558\PycharmProjects\Fastapi_project> python -m venv env
+(.venv) PS C:\Users\bpilla558\PycharmProjects\Fastapi_project> .\env\Scripts\activate
+# inside scripts where our main.py is located we must initiate the command so uvicorn can locate it
+(.venv) PS C:\Users\bpilla558\PycharmProjects\Fastapi_project> .\env\Scripts\activate> uvicorn main:app --reload
+
+INFO:     Will watch for changes in these directories: ['C:\\Users\\bpilla558\\PycharmProjects\\Fastapi_project\\env\\Scripts']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10252] using StatReload
+INFO:     Started server process [30392]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:60674 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60674 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+
+Access Your Application:
+--------------------
+Open a web browser and go to http://127.0.0.1:8000.
+
+{"Hello":"World"}
